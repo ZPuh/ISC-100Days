@@ -63,8 +63,7 @@ public class OperatorLogikaBoolean {
         c = a^b;
         System.out.println(a+" ^ "+b+" = "+c);
         System.out.println("======= NOT (!) =======");
-        /* XOR diibaratkan pekalian/pembagian dalam operasi matematika true(-)&
-           false(+)*/
+        // NOT Adalah kebalikan, jika nilainya true maka hasilnya adalah false,begitu juga sebaliknya
         a = true;
         c = !a;
         System.out.println(a+"  --> ! = "+c);
