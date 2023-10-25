@@ -6,7 +6,7 @@ public class DaftarMenu {
         Scanner scan = new Scanner (System.in);
         int makan,minum;
         double harga1=0,total,harga2=0;
-        String menu;
+        String menu1=null,menu2=null;
         System.out.println("=====================");
         System.out.println("==   DAFTAR MENU   ==");
         System.out.println("=====================");
@@ -21,36 +21,37 @@ public class DaftarMenu {
         minum = scan.nextInt();         
         switch (makan) {
             case 1:
-                menu = "Nasi Goreng";
+                menu1 = "Nasi Goreng";
                 harga1 = 7000;
                 break;
             case 2:
-                menu = "Nasi Kuning";
+                menu1 = "Nasi Kuning";
                 harga1 = 10000;
                 break;
             case 3:
-                menu = "Nasi Campur ";
+                menu1 = "Nasi Campur ";
                 harga1 = 12000;
                 break;
             default:               
         }
         switch (minum) {
             case 1:
-                menu = "Es Teh";
+                menu2 = "Es Teh";
                 harga2 = 5000;
                 break;
             case 2:
-                menu = "Kopi";
+                menu2 = "Kopi";
                 harga2 = 7000;
                 break;
             case 3:
-                menu = "Susu";
+                menu2 = "Susu";
                 harga2 = 10000;
                 break;
             default:   
         }
         total = harga1+harga2;
         System.out.println("---------------------");
+        System.out.println("Pesanan Anda : \nMakanan : "+menu1+"\nMinuman : "+menu2);        
         System.out.println("Total Harga : "+total);
         System.out.println("=====================");
 
