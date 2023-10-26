@@ -2,7 +2,7 @@ package hargatiket;
 import java.util.Scanner;
 public class HargaTiket {
     public static void main(String[] args) {
-        // Membuat Penentuan Harga Tiket Transportasi
+        // Membuat Penentuan Harga Tiket Transportasi.
         Scanner input = new Scanner (System.in);
         int kategori,jarak;
         float harga=0;
