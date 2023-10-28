@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class NilaiMahasiswa {
     public static void main(String[] args) {
         //Program Input Nilai Mahasiswa
-        //NB : Rata-rata diperoleh dari 30% nilai presensi,30% nilai tugas,dan 40% nilai UAS
+        //NB : Rata-rata diperoleh dari 30% nilai presensi,30% nilai tugas,dan 40% nilai UAS.
         Scanner sc = new Scanner (System.in);
         String nim,nama,matkul;
         double absen,tugas,uas,rata;
