@@ -16,9 +16,8 @@ public class JmlhHariDlmBulan {
             case 4,6,9,11:
                 hari = "30";
                 break;
-            case 2:
-                hari = "28 atau 29";
-                break;                            
+            default:
+                hari = "28 atau 29";                                           
             }                 
         } else{
           System.out.println("Masukkan angka bulan yang valid (1-12).");
