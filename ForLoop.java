@@ -9,7 +9,7 @@ public class ForLoop {
             break;
         }
     //Perulangan Dengan Kondisi
-        var i = 1;
+        int i = 1;
         for (; i <= 10;) {
             System.out.println(i);
             i++;
