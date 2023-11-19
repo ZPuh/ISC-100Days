@@ -1,9 +1,8 @@
 package array;
-
 import java.util.Scanner;
-
 public class ArrRataRata {
     public static void main(String[] args) {
+        // Rata Rata Pada Array
         Scanner sc = new Scanner (System.in);
         System.out.print("Jumlah Index : ");
         int index = sc.nextInt();
@@ -14,7 +13,6 @@ public class ArrRataRata {
             double nilai = sc.nextInt();
             rata+=nilai;
         }
-        System.out.println(rata/index);
-    }
-    
+        System.out.println("Rata-Rata : "+rata/index);
+    }    
 }
